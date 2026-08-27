@@ -1,0 +1,34 @@
+//colores
+$colorPrincipalDorado: #c8912a;
+$colorHeader: rgba($colorPrincipalDorado, 0.05);
+$color-blanco: #ffffff;
+
+$gradienteFeatures: linear-gradient(
+  to bottom,
+  #625c32 12%,
+  #6c5221 39%,
+  #0f1117 70%
+);
+
+$gradienteAboutGame: linear-gradient(
+  to bottom,
+  #0a0f1a 7%,
+  #0c1220 51%,
+  #0f1828 93%
+);
+
+$colorFooter: #0a0a0a;
+$colorGris: #374957;
+
+$colorCardEstandar: rgba(#3a2404, 0.5);
+$colorCardGold: rgba(#c8922a, 0.5);
+$colorSteam: #1b2838;
+$colorPlaystation: #003087;
+$colorXbox: #107c10;
+
+//breakpoints
+
+$breakpointDesktop: 90em;
+$breakpointTablet: 48em;
+
+$borderRadius: 20px;
