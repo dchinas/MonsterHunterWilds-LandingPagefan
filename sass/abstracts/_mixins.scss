@@ -1,0 +1,11 @@
+@mixin breakpoint-Desktop {
+  @media (max-width: $breakpointDesktop) {
+    @content;
+  }
+}
+
+@mixin breakpoint-Tablet {
+  @media (max-width: $breakpointTablet) {
+    @content;
+  }
+}
