@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $colorHeader;
+  position: fixed;
+  z-index: 2;
+
+  @include breakpoint-Unplanned-01 {
+    nav {
+      padding-right: 70px;
+    }
+  }
+}
+
+nav {
+  display: flex;
+  padding-right: 265px;
+  ul {
+    display: flex;
+  }
+}
+
+.li__aContainer {
+  padding: 23px;
+  color: $color-blanco;
+  text-decoration: none;
+  a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}
+
+.figure__imgContainer {
+  img {
+    width: 100px;
+    padding-left: 16px;
+  }
+}

@@ -1,4 +1,41 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(200, 145, 42, 0.05);
+  position: fixed;
+  z-index: 2;
+}
+@media (max-width: 54em) {
+  .header nav {
+    padding-right: 70px;
+  }
+}
+
+nav {
+  display: flex;
+  padding-right: 265px;
+}
+nav ul {
+  display: flex;
+}
+
+.li__aContainer {
+  padding: 23px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.li__aContainer a {
+  text-decoration: none;
+  color: black;
+}
+.li__aContainer a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .figure__imgContainer img {
   width: 100px;
+  padding-left: 16px;
 }/*# sourceMappingURL=main.css.map */
